@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#nleft{
+    gap: 30px;
+    display: flex;
+}
+#nright{
+    gap: 30px;
+    display: flex;
+}
+#nav a{
+    display: inline-block;
+    font-size: 12px;
+    color:black;
+    text-decoration: none ;
+}
+#nav #centeratag{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero{
+    display: flex;
+   align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+}
+#token{
+    width: 10vw;
+}
+#token p{
+    text-transform: capitalize;
+    opacity: .5;
+    font-weight: 800;
+    font-size: 12px;
+    margin: 10px 0;
+}
+#token #tokenimgwrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+   
+}
+#tokenimgwrapper img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#circlev{
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+     
+}
+#circlev i{ 
+color: #5e5e5e;
+}
+#visit h3{
+    color: #5e5e5e;
+    font-weight: 400;
+}
+#booking{
+    width: 30vw;
+    min-width: 42vw;
+    
+    position: relative;
+}
+
+#booking #headings{
+    position: absolute;
+    top: -15%;
+    left: -5%;
+}
+#booking img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#booking p{
+    
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3;
+    width: 40%;
+    
+}
+#booking h1{
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+#imagentext{
+    width: fit-content;
+    height: fit-content;
+
+}
+#motive{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    color: #5e5e5e;
+}
+#motive p{
+    line-height: 1.3;
+    letter-spacing: -.12vw;
+    width: 85%;
+    position: relative;
+    right: 0;
+    font-size: 2.1vw;
+    text-align: right;
+    color: black;
+}
+#motive span{
+    display: inline-block;
+    
+    background-color: red;
+    border-radius: 100px;
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+}
+#onespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#twospan{
+    width: 120px;
+    height: 50px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+#threespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#pictures{
+    
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+#picconclude{
+    display: flex;
+    justify-content: space-between;
+}
+#pictures h1{
+    margin-bottom: 8vw;
+    
+    margin-left: 20vw;
+}
+#firstpic{
+    width: 17vw;
+}
+#secpic{
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#firstpic #picimg{
+    height: 20vw;
+    width: 24vw;
+    margin-bottom: 1vw;
+    
+}
+#picimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#firstpic h3, #secpic h3{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#firstpic p, #secpic p{
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.05vw;
+    line-height:;
+    margin-top: 10px;
+}
+#secpic #picimg{
+    height: 22vw;
+    margin-bottom: 1vw;
+    
+}
+#secpic p{
+    text-align: right;
+    width: 50%;
+}
+#secpic h3{
+    text-align: right;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    margin-top: 8vw;
+    width: 100%;
+}
+#bimg{
+    width: 65%;
+    height: 60vh;
+    
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+#btext h1{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+
+}
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+#future{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;   
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 100px;
+}
+#ftext button{
+    padding: .8vw 1.7vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+}
